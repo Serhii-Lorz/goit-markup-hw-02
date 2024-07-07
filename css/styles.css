@@ -1,8 +1,141 @@
 body {
     font-family:"Roboto", sans-serif;
-    color:#434455;
+    color:#2E2F42;
 }
 
-.header-nav > li {
-    color:#2E2F42;
+.main-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+}
+
+.logo {
+    color:#4D5AE5;
+}
+
+.header-nav .head-nav {
+    color: #434455;
+    font-size:16px;
+    line-height:1.5;
+    font-weight:500;
+}
+
+.header-nav .head-nav:hover {
+    color:#404BBF;
+}
+
+.header-nav .head-nav:focus {
+    color:#404BBF;
+}
+
+.header-nav .head-nav:active {
+    color:#404BBF;
+}
+
+.header-address .head-addr {
+    color: #434455;
+    font-size: 16px;
+    line-height:1.5;
+    font-weight: 400;
+}
+
+.header-address .head-addr:hover {
+    color:#404BBF;
+}
+
+.header-address .head-addr:active {
+    color: #404BBF;
+}
+
+.main-title {
+    color:#FFFFFF;
+    background: #2E2F42;
+    font-weight:700;
+    font-size:56px;
+    line-height:1.07;
+}
+
+.order-button {
+    cursor:pointer;
+    color:#FFFFFF;
+    background:#4D5AE5;
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+}
+
+.order-button:focus {
+    cursor: pointer;
+    color: #FFFFFF;
+    background:#404BBF;;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.order-button:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.features .features-title {
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+}
+
+.features .features-paragraph {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.ourteam .ourteam-title {
+    font-weight:500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.ourteam .ourteam-paragraph {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.portfolio-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.portfolio .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio .portfolio-paragraph {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-paragraph {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
