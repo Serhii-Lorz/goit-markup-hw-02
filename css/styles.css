@@ -6,6 +6,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -18,8 +20,9 @@ ul {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-align: left;
     color: #4D5AE5;
     text-decoration: none;
@@ -61,6 +64,7 @@ ul {
     text-align: left;
     text-decoration: none;
     color: #434455;
+    font-style: normal;
 }
 
 .link-address:hover {
@@ -76,7 +80,7 @@ ul {
 .main-title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -88,6 +92,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
@@ -99,12 +104,12 @@ ul {
 /* Стилі для second-section */
 
 .second-section .features .title {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .second-section .features .paragraph {
@@ -125,9 +130,15 @@ ul {
 .third-section-main-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.our-team-li {
+    background-color: #FFFFFF;
 }
 
 .our-team .title {
@@ -136,6 +147,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    color:#2e2f42;
 }
 
 .our-team .paragraph {
@@ -152,9 +164,11 @@ ul {
 .fourth-section-main-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
 
 .fourth-section .title {
@@ -171,6 +185,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color:#434455;
 }
 
 /* Стилі для footer */
@@ -183,11 +198,12 @@ ul {
     font-family:"Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .footer .span {
