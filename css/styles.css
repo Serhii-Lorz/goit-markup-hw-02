@@ -52,8 +52,16 @@ ul {
     color: #404BBF;
 }
 
-.header .navigation .link:active {
+.header .navigation .link:focus {
     color: #404BBF;
+}
+
+.header .navigation .link:active {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
 }
 
 .link-address {
@@ -71,6 +79,10 @@ ul {
     color: #404BBF;
 }
 
+
+.link-address:focus {
+    color:#404bbf;
+}
 /* Стилі для first-section */
 
 .first-section {
@@ -98,6 +110,10 @@ ul {
 }
 
 .button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
     background-color: #404BBF;
 }
 
@@ -177,6 +193,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color:#2e2f42;
 }
 
 .fourth-section .paragraph {
