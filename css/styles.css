@@ -1,7 +1,7 @@
 /* Стилі для body */
 
 body {
-    font-family: Roboto;
+    font-family:"Roboto", sans-serif;
     font-weight: Regular; 
     font-size: 16px;
     line-height: 24px;
@@ -15,7 +15,7 @@ ul {
 /* Стилі для header */
 
 .header .logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -26,7 +26,7 @@ ul {
 }
 
 .header .span {
-    font-family: Raleway;
+    font-family:"Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -180,7 +180,7 @@ ul {
 }
 
 .footer .logo {
-    font-family: Raleway;
+    font-family:"Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
